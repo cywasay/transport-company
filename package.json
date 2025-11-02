@@ -3,14 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "node api.js && next dev",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start"
   },
   "dependencies": {
+    "lucide": "^0.548.0",
+    "lucide-react": "^0.552.0",
+    "next": "16.0.1",
     "react": "19.2.0",
+    "react-datepicker": "^8.8.0",
     "react-dom": "19.2.0",
-    "next": "16.0.1"
+    "rsuite": "^5.83.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
